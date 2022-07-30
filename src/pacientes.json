@@ -1,0 +1,23 @@
+[
+    {
+        "Nombre_Paciente": "juan",
+        "Peso_Inicial": 30 ,
+        "Peso_Intermedio": 40,
+        "Peso_Final": 40,
+        "Objetivo": "bajar"
+    },
+    {
+        "Nombre_Paciente": "joaquin",
+        "Peso_Inicial": 80,
+        "Peso_Intermedio": 70,
+        "Peso_Final": 40,
+        "Objetivo":"bajar"
+    },
+    {
+        "Nombre_Paciente": "mario",
+        "Peso_Inicial": 30,
+        "Peso_Intermedio": 60,
+        "Peso_Final": 40,
+        "Objetivo":"subir"
+    }
+]
