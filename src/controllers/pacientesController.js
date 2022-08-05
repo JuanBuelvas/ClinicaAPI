@@ -17,13 +17,14 @@ c) Determine cuantos pacientes alcanzaron su objetivo.
 */
 
 var name, pesoInicial, pesoIntermedio, pesoFinal, objetivo;
-let PesoGanado = [];
-let PesoPerdido = [];
-let PerdieronPeso=0;
-let ObjetivoAlcanzado=0;
-let response = {};
+
 
 pacientesController.DatosPacientes = (req, res) => {
+    let PesoGanado = [];
+    let PesoPerdido = [];
+    let PerdieronPeso=0;
+    let ObjetivoAlcanzado=0;
+    let response = {};
     const datosPacientes = req.body;
     for (let i = 0; i < datosPacientes.length; i++) {
         const dato = datosPacientes[i];
